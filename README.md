@@ -4,7 +4,7 @@ All the ASS effects are awesome, if I have time, I will release some compressed 
 
 Thank `MeteorX` for the amazing works!!!
 
-====
+----
 
 However, the memory lying the deep of my mind, can be revealed for only a little from here: http://web.archive.org/web/20100227103601/http://www.ass-feat.cn:80/
 
