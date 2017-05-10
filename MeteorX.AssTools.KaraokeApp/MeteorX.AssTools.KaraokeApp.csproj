@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5BFC3526-745A-422D-A5CE-01C902E43ED4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MeteorX.AssTools.KaraokeApp</RootNamespace>
+    <AssemblyName>MeteorX.AssTools.KaraokeApp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Anime\Akane_OP.cs" />
+    <Compile Include="Anime\Akikan_OP2.cs" />
+    <Compile Include="Anime\AoiHana_ED.cs" />
+    <Compile Include="Anime\AoiHana_OP.cs" />
+    <Compile Include="Anime\Asura2_ED.cs" />
+    <Compile Include="Anime\Asura2_OP.cs" />
+    <Compile Include="Anime\Asura_ED.cs" />
+    <Compile Include="Anime\Asura_OP.cs" />
+    <Compile Include="Anime\BAKATEST_OP_v0.cs" />
+    <Compile Include="Anime\BAKATEST_quiz.cs" />
+    <Compile Include="Anime\BASARA_OP.cs" />
+    <Compile Include="Anime\BaseAnime.cs" />
+    <Compile Include="Anime\BaseAnime2_Sample.cs" />
+    <Compile Include="Anime\BaseAnime3.cs" />
+    <Compile Include="Anime\Birdy2_OP.cs" />
+    <Compile Include="Anime\ClannadAS_ED.cs" />
+    <Compile Include="Anime\ClannadAS_OP.cs" />
+    <Compile Include="Anime\DTB2_OP.cs" />
+    <Compile Include="Anime\DuRarara_ED.cs" />
+    <Compile Include="Anime\Hanasakeru_Seishounen_ED.cs" />
+    <Compile Include="Anime\Hanasakeru_Seishounen_OP.cs" />
+    <Compile Include="Anime\Hatsukoi_Limited_OP.cs" />
+    <Compile Include="Anime\Hayate_OVA_ED.cs" />
+    <Compile Include="Anime\Higurashi_OVA_OP.cs" />
+    <Compile Include="Anime\KIDDY_GiRL_AND_OP.cs" />
+    <Compile Include="Anime\Koukaku_ED.cs" />
+    <Compile Include="Anime\Koukaku_op.cs" />
+    <Compile Include="Anime\MAD_WORLD_Shana.cs" />
+    <Compile Include="Anime\Maria4_ED.cs" />
+    <Compile Include="Anime\Maria4_OP.cs" />
+    <Compile Include="Anime\MariaHolic_ED.cs" />
+    <Compile Include="Anime\Munto_ED.cs" />
+    <Compile Include="Anime\Munto_ED3.cs" />
+    <Compile Include="Anime\Munto_OP.cs" />
+    <Compile Include="Anime\PandoraHearts_OP.cs" />
+    <Compile Include="Anime\PolyphonicaCrimsonS_OP.cs" />
+    <Compile Include="Anime\SakiDVDRip\SakiVol3.cs" />
+    <Compile Include="Anime\SpiceAndWolf2_ED.cs" />
+    <Compile Include="Anime\SpiceAndWolf2_OP.cs" />
+    <Compile Include="Anime\StringMask.cs" />
+    <Compile Include="Anime\supercell_The_story_you_dont_know.cs" />
+    <Compile Include="Anime\SyncTime.cs" />
+    <Compile Include="Anime\TegamiBachi_ED.cs" />
+    <Compile Include="Anime\TestAnime.cs" />
+    <Compile Include="Anime\Test\Test033.cs" />
+    <Compile Include="Anime\Test\TestAvsMask.cs" />
+    <Compile Include="Anime\Test\TestBezier1.cs" />
+    <Compile Include="Anime\Test\TestBezier2.cs" />
+    <Compile Include="Anime\Test\TestBlur1.cs" />
+    <Compile Include="Anime\Test\TestDrop1.cs" />
+    <Compile Include="Anime\Test\TestFlash1.cs" />
+    <Compile Include="Anime\Test\TestFuckDup.cs" />
+    <Compile Include="Anime\Test\TestGraphLib.cs" />
+    <Compile Include="Anime\Test\TestIntense1.cs" />
+    <Compile Include="Anime\Test\TestLight1.cs" />
+    <Compile Include="Anime\Test\TestLight2.cs" />
+    <Compile Include="Anime\Test\TestLight3.cs" />
+    <Compile Include="Anime\Test\TestLight4.cs" />
+    <Compile Include="Anime\Test\TestMarginMove1.cs" />
+    <Compile Include="Anime\Test\TestParticle1.cs" />
+    <Compile Include="Anime\Test\TestParticle2.cs" />
+    <Compile Include="Anime\Test\TestParticle3.cs" />
+    <Compile Include="Anime\Test\TestParticle4.cs" />
+    <Compile Include="Anime\Test\TestPIExport1.cs" />
+    <Compile Include="Anime\Test\TestRadioWave1.cs" />
+    <Compile Include="Anime\Test\TestToy1.cs" />
+    <Compile Include="Anime\Test\TestXXParticle1.cs" />
+    <Compile Include="Anime\Toradora_ED2.cs" />
+    <Compile Include="Anime\Toradora_OP.cs" />
+    <Compile Include="Anime\Toradora_OP2.cs" />
+    <Compile Include="Anime\Umineko_ED.cs" />
+    <Compile Include="Anime\Umineko_OP.cs" />
+    <Compile Include="Anime\ZokuNatsume_ED.cs" />
+    <Compile Include="Anime\ZokuNatsume_OP.cs" />
+    <Compile Include="Anime\ZokuNatsume_OP_v2.cs" />
+    <Compile Include="ASS.cs" />
+    <Compile Include="ASSColor.cs" />
+    <Compile Include="ASSEffect.cs" />
+    <Compile Include="ASSEvent.cs" />
+    <Compile Include="ASSPoint.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="Effect\MovParticle.cs" />
+    <Compile Include="Effect\Particle.cs" />
+    <Compile Include="Effect\Particle2.cs" />
+    <Compile Include="KElement.cs" />
+    <Compile Include="Mask.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Mask.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Model\BaseCurve.cs" />
+    <Compile Include="Model\Bezier.cs" />
+    <Compile Include="Model\BlurCurve.cs" />
+    <Compile Include="Model\Brown.cs" />
+    <Compile Include="Model\Circle.cs" />
+    <Compile Include="Model\Circle2.cs" />
+    <Compile Include="Model\CompositeCurve.cs" />
+    <Compile Include="Model\CompoundCurve.cs" />
+    <Compile Include="Model\Line.cs" />
+    <Compile Include="Model\Sentence.cs" />
+    <Compile Include="Model\Sine.cs" />
+    <Compile Include="Model\Word.cs" />
+    <Compile Include="ParticleIllusionExporter.cs" />
+    <Compile Include="XXParticle\IXXEmitter.cs" />
+    <Compile Include="XXParticle\IXXForceField.cs" />
+    <Compile Include="XXParticle\IXXGravityPosition.cs" />
+    <Compile Include="XXParticle\XXParticleSystem.cs" />
+    <Compile Include="XXParticle\XXParticleElement.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Toys\Light4.cs" />
+    <Compile Include="Toys\Toy1.cs" />
+    <Compile Include="Toys\Toy2.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Mask.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Mask.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Mask.dbml.layout">
+      <DependentUpon>Mask.dbml</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

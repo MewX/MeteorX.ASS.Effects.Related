@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Mask">
+  <DataContextMoniker Name="/MaskDataContext" />
+  <nestedChildShapes>
+    <classShape Id="e0baad90-fc33-4b5c-a32b-2dfaa98e520d" absoluteBounds="5.875, 2.375, 2, 2.3356245930989585">
+      <DataClassMoniker Name="/MaskDataContext/Mask" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3237f79d-e7e1-4d1b-9570-7110b31139ee" absoluteBounds="5.89, 2.835, 1.9700000000000002, 1.7756245930989585" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
