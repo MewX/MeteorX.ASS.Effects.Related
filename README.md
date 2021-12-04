@@ -23,7 +23,7 @@ The list of releases:
 - `[X]018_Hanasakeru_Seishounen_OP.mkv`
 - `[X]019_Aoi_Hana_OP.mkv`
 - `[X]020_Aoi_Hana_ED.mkv`
-- [X]021_Umineko_no_Naku_Koro_ni_OP.mp4
+- `[X]021_Umineko_no_Naku_Koro_ni_OP.mp4`
 - `[X]022_Spice_and_Wolf_II_OP.mkv`
 - `[X]023_Spice_and_Wolf_II_ED.mkv`
 - `[X]024_supercell_The_story_you_dont_know.mkv`
